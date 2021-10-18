@@ -43,11 +43,34 @@ HBO Max`select`[]美国`[]欧非`[]美洲`[]PROXY
 HBO Go Asia`select`[]PROXY`[]香港`[]台湾`[]菲律宾
 DMM`select`[]日本`[]PROXY
 BBC`select`[]英国`[]PROXY
-ITV
-All-4
-My5
-BiliBili
-爱奇艺台湾
+ITV`select`[]英国`[]PROXY
+All-4`select`[]英国`[]PROXY
+My5`select`[]英国`[]PROXY
+BiliBili`select`[]DIRECT`[]PROXY`[]香港`[]台湾
+爱奇艺台湾`select`[]台湾`[]DIRECT
+爱奇艺
+Bahamut
+CatchPlay+
+KKTV
+myVideo
+friDay
+LINE TV
+TVB
+Now E
+Viu
+Spotify
+TIDAL
+KKBOX
+Speedtest
+PayPal
+Microsoft
+XBOX
+PlayStation
+Nintendo
+Apple News
+PrivateTracker
+AdGuard
+Final
 📀 Emby(Imm)`select`[]美国`[]日本`[]香港`[]新加坡`[]DIRECT`[]PROXY
 📀 Emby(Od)`select`[]美国`[]日本`[]香港`[]新加坡`[]DIRECT`[]PROXY
 💳 贝宝支付`select`[]美国`[]PROXY`[]香港`[]日本`[]新加坡`[]DIRECT
@@ -58,6 +81,6 @@ BiliBili
 🎵 网易云音乐`select`[]DIRECT`解锁
 
 DIRECT`select`[]DIRECT
-🛑 广告拦截`select`[]REJECT`[]DIRECT
+REJECT`select`[]REJECT`[]DIRECT
 🍃 应用净化`select`[]REJECT`[]DIRECT
 🐟 漏网之鱼`select`[]DIRECT`[]PROXY

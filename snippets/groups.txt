@@ -1,14 +1,9 @@
 PROXY`select`[]DIRECT`[]香港`[]台湾`[]新加坡`[]日本`[]美国`[]英国`[]菲律宾`[]印度`[]俄罗斯`[]澳洲`[]韩国`[]亚太`[]欧非`[]美洲
 香港`select`(HK|HKG|Hong|香港|澳门)
-香港测速`url-test`(HK|HKG|Hong|香港|澳门)
 台湾`select`(TW|TWN|Taiwan|台湾)
-台湾测速`url-test`(TW|TWN|Taiwan|台湾)
 新加坡`select`(SG|SGP|Singapore|狮城|新加坡)
-新加坡测速`url-test`(SG|SGP|Singapore|狮城|新加坡)
 日本`select`(JP|JPN|Japan|日本)
-日本测速`select`(JP|JPN|Japan|日本)
 美国`select`(?=.*(US|USA|States|美国))^((?!(AUS|RUS)).)*$
-美国测速`url-test`(?=.*(US|USA|States|美国))^((?!(AUS|RUS)).)*$
 英国`select`(UK|GBR|Kingdom|英国|马恩岛)
 菲律宾`select`(PH|菲律宾)
 印度`select`(IND|India|印度)

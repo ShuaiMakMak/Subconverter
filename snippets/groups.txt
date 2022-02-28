@@ -17,6 +17,5 @@ ESPN`select`((?=.*(US|USA|States|美国))^((?!(AUS|RUS)).)*$)
 DAZN`select`((?=.*(JP|JPN|Japan|日本|Austria|奧地利|DE|DEU|Germany|德国|瑞士|Italy|意大利|意呆利|ESP|西班牙|CAN|Canada|加拿大|US|USA|States|美国|Brazil|巴西))^((?!(AUS|RUS)).)*$)
 S Sport Plus`select`(Turkey|TR|TUR|土耳其)
 Setanta Sports`select`(亚美尼亚|阿塞拜疆|白俄罗斯|格鲁吉亚|哈萨克斯坦|吉尔吉斯坦|摩尔多瓦|塔吉克斯坦|土库曼斯坦|乌兹别克斯坦|乌克兰|立陶宛|拉脱维亚|爱沙尼亚)
-NBA`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]印度
 Paramount+`select`[]英国`[]澳洲`[]欧非`[]美洲`((?=.*(US|USA|States|美国))^((?!(AUS|RUS)).)*$)
 Qobuz`select`(France|FRA|法国|FR)

@@ -1,81 +1,22 @@
-PROXY`select`[]DIRECT`[]香港`[]台湾`[]新加坡`[]日本`[]美国`[]英国`[]菲律宾`[]印度`[]俄罗斯`[]澳洲`[]韩国`[]亚太`[]欧非`[]美洲
+PROXY`select`.*
 香港`select`(HK|HKG|Hong|香港|澳门)
 台湾`select`(TW|TWN|Taiwan|台湾)
 新加坡`select`(SG|SGP|Singapore|狮城|新加坡)
 日本`select`(JP|JPN|Japan|日本)
-美国`select`(?=.*(US|USA|States|美国))^((?!(AUS|RUS)).)*$
+美国`select`((?=.*(US|USA|States|美国))^((?!(AUS|RUS)).)*$)
 英国`select`(UK|GBR|Kingdom|英国|马恩岛)
-菲律宾`select`(PH|菲律宾)
+菲律宾`select`(PH|PHL|Philippines|菲律宾)
 印度`select`(IND|India|印度)
-俄罗斯`select`(?=.*(RU|RUS|Russia|俄罗斯))^((?!(白俄罗斯)).)*$
+俄罗斯`select`((?=.*(RU|RUS|Russia|俄罗斯))^((?!(白俄罗斯)).)*$)
 澳洲`select`(AUS|Australia|澳洲|澳大利亚)
 韩国`select`(KR|KOR|Korea|韩国)
-亚太`select`(?=.*(As|Oa|越南|Indonesia|印尼|泰国|巴基斯坦|阿联酋|Israel|以色列|土耳其))^((?!(HK|HKG|Hong|香港|澳门|TW|TWN|Taiwan|台湾|SG|SGP|Singapore|狮城|新加坡|JP|JPN|Japan|日本|菲律宾|IND|India|印度|AUS|Australia|澳洲|澳大利亚|KR|KOR|Korea|韩国)).)*$
-欧非`select`(?=.*(Eu|Sf|DE|DEU|Germany|德国|FRA|France|法国|POL|NLD|Netherlands|荷兰|Sweden|Bulgaria|Austria|Ireland|Italy|意呆利|Hungary|匈牙利|ESP|ISL|DNK|瑞士|爱沙尼亚))^((?!(UK|GBR|Kingdom|英国|马恩岛|RU|RUS|Russia|俄罗斯)).)*$
-美洲`select`(?=.*(Na|Sa|CAN|Canada|加拿大|阿根廷|Brazil))^((?!(US|USA|States|美国|Sakura|Naranj)).)*$
-
-YouTube`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]日本`[]美国
-Netflix`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]日本`[]美国`[]英国`[]菲律宾`[]印度`[]俄罗斯`[]澳洲`[]韩国`[]印度`[]亚太`[]欧非`[]美洲
-Amazon Prime Video`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]日本`[]美国`[]英国`[]菲律宾`[]印度`[]俄罗斯`[]澳洲`[]韩国`[]印度`[]亚太`[]欧非`[]美洲
-AppleTV`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]日本`[]美国`[]英国`[]菲律宾`[]印度`[]俄罗斯`[]澳洲`[]韩国`[]印度`[]亚太`[]欧非`[]美洲
-Disney`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]日本`[]美国
-Disney+`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]日本`[]美国`[]英国`[]菲律宾`[]印度`[]俄罗斯`[]澳洲`[]韩国`[]印度`[]亚太`[]欧非`[]美洲
-Hulu`select`[]美国`[]PROXY
-ESPN`select`[]美国`[]PROXY
-Star`select`[]美国`[]美洲`[]PROXY
-Star+`select`[]美洲`[]PROXY
-DAZN`select`(?=.*(JP|JPN|Japan|日本|Austria|奧地利|DE|DEU|Germany|德国|瑞士|Italy|意大利|意呆利|ESP|西班牙|CAN|Canada|加拿大|US|USA|States|美国|Brazil|巴西))^((?!(AUS|RUS)).)*$`[]PROXY
-NBA`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]日本`[]美国`[]印度
-Paramount+`select`[]美国`[]PROXY
-Peacock`select`[]美国`[]PROXY
-Discovery+`select`[]美国`[]菲律宾`[]印度`[]PROXY
-VRV`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]日本`[]美国
-Crunchyroll`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]日本`[]美国`[]英国`[]韩国
-TikTok`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]日本`[]美国`[]英国`[]菲律宾`[]印度`[]俄罗斯`[]澳洲`[]韩国`[]印度`[]亚太`[]欧非`[]美洲
-Pornhub`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]日本`[]美国`[]韩国
-Vimeo`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]日本`[]美国
-HBO Max`select`[]美国`[]欧非`[]美洲`[]PROXY
-HBO Go Asia`select`[]PROXY`[]香港`[]台湾`[]菲律宾
-DMM`select`[]日本`[]PROXY
-BBC`select`[]英国`[]PROXY
-ITV`select`[]英国`[]PROXY
-All-4`select`[]英国`[]PROXY
-My5`select`[]英国`[]PROXY
-BiliBili`select`[]DIRECT`[]PROXY`[]香港`[]台湾
-爱奇艺台湾`select`[]台湾`[]DIRECT
-爱奇艺
-Bahamut
-CatchPlay+
-KKTV
-myVideo
-friDay
-LINE TV
-TVB
-Now E
-Viu
-Spotify
-TIDAL
-KKBOX
-Speedtest
-PayPal
-Microsoft
-XBOX
-PlayStation
-Nintendo
-Apple News
-PrivateTracker
-AdGuard
-Final
-📀 Emby(Imm)`select`[]美国`[]日本`[]香港`[]新加坡`[]DIRECT`[]PROXY
-📀 Emby(Od)`select`[]美国`[]日本`[]香港`[]新加坡`[]DIRECT`[]PROXY
-💳 贝宝支付`select`[]美国`[]PROXY`[]香港`[]日本`[]新加坡`[]DIRECT
-Ⓜ️ 微软服务`select`[]DIRECT`[]PROXY`[]香港
-🍎 苹果服务`select`[]DIRECT`[]香港`[]新加坡`[]日本`[]美国
-🎵 声田音乐`select`[]香港`[]DIRECT`[]新加坡`[]日本`[]美国
-🌏 国内媒体`select`[]DIRECT`[]🎵 声田音乐`[]🇨🇳 台湾`[]香港`[]PROXY
-🎵 网易云音乐`select`[]DIRECT`解锁
-
-DIRECT`select`[]DIRECT
-REJECT`select`[]REJECT`[]DIRECT
-🍃 应用净化`select`[]REJECT`[]DIRECT
-🐟 漏网之鱼`select`[]DIRECT`[]PROXY
+亚太`select`((?=.*(Israel|Turkey|Indonesia|Malaysia|THA|TUR|IDN|VNM|以色列|伊朗|约旦|土耳其|阿联酋|孟加拉|沙特阿拉伯|阿塞拜疆|哈萨克斯坦|吉尔吉斯坦|印尼|柬埔寨|格鲁吉亚|泰国|越南|蒙古国|尼泊尔|马来西亚|巴基斯坦|新西兰))^((?!(HK|HKG|Hong|香港|澳门|TW|TWN|Taiwan|台湾|SG|SGP|Singapore|狮城|新加坡|JP|JPN|Japan|日本|PH|Philippines|菲律宾|IND|India|印度|AUS|Australia|澳洲|澳大利亚|KR|KOR|Korea|韩国)).)*$)
+欧非`select`((?=.*(Netherlands|Germany|France|Sweden|Bulgaria|Austria|Ireland|Italy|Hungary|DEU|FRA|POL|NLD|ESP|ISL|DNK|法国|德国|丹麦|挪威|瑞典|芬兰|冰岛|瑞士|捷克|希腊|荷兰|波兰|乌克兰|匈牙利|卢森堡|奥地利|意大利|比利时|爱尔兰|立陶宛|科索沃|西班牙|葡萄牙|保加利亚|克罗地亚|北马其顿|塞尔维亚|塞浦路斯|拉脱维亚|摩尔多瓦|斯洛伐克|爱沙尼亚|白俄罗斯|罗马尼亚|斯洛文尼亚|阿尔巴尼亚|波黑共和国|埃及|南非|摩洛哥|突尼斯|肯尼亚|尼日利亚|意呆利))^((?!(UK|GBR|Kingdom|英国|马恩岛|RU|RUS|Russia|俄罗斯|日本|泰国|美国)).)*$)
+美洲`select`((?=.*(Canada|Brazil|CAN|加拿大|墨西哥|巴拿马|哥斯达黎加|巴西|智利|秘鲁|阿根廷|乌拉圭|哥伦比亚|委内瑞拉))^((?!(US|USA|States|美国|Sakura|Naranj|GBR|泰国)).)*$)
+ESPN`select`((?=.*(US|USA|States|美国))^((?!(AUS|RUS)).)*$)
+DAZN`select`((?=.*(JP|JPN|Japan|日本|Austria|奧地利|DE|DEU|Germany|德国|瑞士|Italy|意大利|意呆利|ESP|西班牙|CAN|Canada|加拿大|US|USA|States|美国|Brazil|巴西))^((?!(AUS|RUS)).)*$)
+S Sport Plus`select`(Turkey|TR|TUR|土耳其)
+Setanta Sports`select`(亚美尼亚|阿塞拜疆|白俄罗斯|格鲁吉亚|哈萨克斯坦|吉尔吉斯坦|摩尔多瓦|塔吉克斯坦|土库曼斯坦|乌兹别克斯坦|乌克兰|立陶宛|拉脱维亚|爱沙尼亚)
+NBA`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]印度
+Paramount+`select`[]英国`[]澳洲`[]欧非`[]美洲`((?=.*(US|USA|States|美国))^((?!(AUS|RUS)).)*$)
+Qobuz`select`(France|FRA|法国|FR)

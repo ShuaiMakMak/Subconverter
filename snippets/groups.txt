@@ -1,5 +1,5 @@
 PROXY`select`.*
-香港`select`(HK|HKG|Hong|香港|澳门)
+香港`select`(HK|HKG|Hong|香港|澳门|Emby直通车)
 台湾`select`(TW|TWN|Taiwan|台湾)
 新加坡`select`(SG|SGP|Singapore|狮城|新加坡)
 日本`select`(JP|JPN|Japan|日本)

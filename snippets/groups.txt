@@ -20,7 +20,7 @@ Amazon Prime Video`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]日本`[]美�
 AppleTV`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]日本`[]美国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧非`[]美洲
 Disney`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]日本`[]美国
 Disney+`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]日本`[]美国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧非`[]美洲
-ESPN`select`((?=.*(US|USA|States|美国))^((?!(AUS|RUS)).)*$)
+ESPN+`select`((?=.*(US|USA|States|美国))^((?!(AUS|RUS)).)*$)
 Star`select`[]美国`[]美洲
 DAZN`select`(JP|JPN|Japan|日本|Austria|奧地利|DE|DEU|Germany|德国|瑞士|Italy|意大利|意呆利|ESP|西班牙|CAN|Canada|加拿大|Brazil|巴西)
 S Sport Plus`select`(Turkey|TR|TUR|土耳其)

@@ -10,7 +10,7 @@ PROXY`select`.*
 英国`select`(UK|GBR|Kingdom|英国|马恩岛)
 加拿大`select`(Canada|CAN|加拿大)
 澳洲`select`(AUS|Australia|澳洲|澳大利亚)
-亚太`select`((?=.*(Israel|Turkey|Indonesia|Malaysia|THA|TUR|IDN|VNM|以色列|伊朗|约旦|土耳其|阿联酋|孟加拉|沙特阿拉伯|阿塞拜疆|哈萨克斯坦|吉尔吉斯坦|印尼|柬埔寨|格鲁吉亚|泰国|越南|蒙古国|尼泊尔|马来西亚|巴基斯坦|新西兰))^((?!(HK|HKG|Hong|香港|澳门|TW|TWN|Taiwan|台湾|SG|SGP|Singapore|狮城|新加坡|JP|JPN|Japan|日本|PH|Philippines|菲律宾|IND|India|印度|AUS|Australia|澳洲|澳大利亚|KR|KOR|Korea|韩国)).)*$)
+亚太`select`((?=.*(Israel|Turkey|Indonesia|Malaysia|THA|TUR|IDN|VNM|以色列|伊朗|约旦|土耳其|阿联酋|孟加拉|沙特阿拉伯|阿塞拜疆|哈萨克斯坦|吉尔吉斯坦|印尼|柬埔寨|格鲁吉亚|泰国|越南|蒙古|尼泊尔|马来西亚|巴基斯坦|新西兰))^((?!(HK|HKG|Hong|香港|澳门|TW|TWN|Taiwan|台湾|SG|SGP|Singapore|狮城|新加坡|JP|JPN|Japan|日本|PH|Philippines|菲律宾|IND|India|印度|AUS|Australia|澳洲|澳大利亚|KR|KOR|Korea|韩国)).)*$)
 欧非`select`((?=.*(Netherlands|Germany|France|Sweden|Bulgaria|Austria|Ireland|Italy|Hungary|DEU|FRA|POL|NLD|ESP|ISL|DNK|法国|德国|丹麦|挪威|瑞典|芬兰|冰岛|瑞士|捷克|希腊|荷兰|波兰|乌克兰|匈牙利|卢森堡|奥地利|意大利|比利时|爱尔兰|立陶宛|科索沃|西班牙|葡萄牙|保加利亚|克罗地亚|北马其顿|塞尔维亚|塞浦路斯|拉脱维亚|摩尔多瓦|斯洛伐克|爱沙尼亚|白俄罗斯|罗马尼亚|斯洛文尼亚|阿尔巴尼亚|波黑共和国|埃及|南非|摩洛哥|突尼斯|肯尼亚|尼日利亚|意呆利))^((?!(UK|GBR|Kingdom|英国|马恩岛|RU|RUS|Russia|俄罗斯|日本|泰国|美国)).)*$)
 美洲`select`((?=.*(Brazil|墨西哥|巴拿马|哥斯达黎加|巴西|智利|秘鲁|阿根廷|乌拉圭|哥伦比亚|委内瑞拉))^((?!(US|USA|States|美国|Sakura|Naranj|GBR|泰国)).)*$)
 

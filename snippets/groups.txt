@@ -1,5 +1,5 @@
 PROXY`select`.*
-香港`select`(HK|HKG|Hong|香港|澳门|Emby直通车)
+香港`select`(HK|HKG|Hong|香港|澳门)
 台湾`select`(TW|TWN|Taiwan|台湾)
 新加坡`select`(SG|SGP|Singapore|狮城|新加坡)
 日本`select`(JP|JPN|Japan|日本)
@@ -42,7 +42,7 @@ HBO Go Asia`select`[]香港`[]台湾`[]菲律宾
 BritBox US`select`[]美国`[]加拿大`[]澳洲`(南非)
 哔哩哔哩`select`[]DIRECT`[]PROXY`[]香港`[]台湾
 Viu`select`[]香港`[]新加坡`[]菲律宾
-Emby`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]日本`[]美国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧非`[]美洲
+Emby`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]日本`[]美国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧非`[]美洲`Emby直通车
 IPTV`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]日本`[]美国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧非`[]美洲
 Spotify`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]日本`[]美国`[]菲律宾
 TIDAL`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]日本`[]美国`[]亚太`[]美洲

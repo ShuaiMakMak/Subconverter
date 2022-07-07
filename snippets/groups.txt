@@ -55,8 +55,8 @@ IPTV`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]日本`[]美国`[]�
 Apple Music`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]日本`[]美国
 Spotify`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]日本`[]美国`[]菲律宾
 TIDAL`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]日本`[]美国`[]亚太`[]美洲
-Deezer`select`[]PROXY``[]新加坡`[]日本`[]美国`[]菲律宾`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧非`[]美洲
-Qobuz`select`[]PROXY``(USA|States|美国|UK|GBR|英国|GB|马恩岛|IM|France|FRA|法国|FR|法属|RE|Brazil|巴西|BR|阿根廷|AR)
+Deezer`select`[]PROXY`[]新加坡`[]日本`[]美国`[]菲律宾`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧非`[]美洲
+Qobuz`select`[]PROXY`[]美国`[]英国`[]美洲`(|France|FRA|法国|FR|法属|RE)
 
 Apple`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]日本`[]美国
 Speedtest`select`[]DIRECT`[]PROXY

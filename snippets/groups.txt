@@ -15,7 +15,7 @@ PROXY`select`.*
 
 欧非`select`((?=.*(Netherlands|Germany|France|Switzerland|Sweden|Bulgaria|Austria|Ireland|Italy|Hungary|DEU|FRA|POL|NLD|ESP|ISL|DNK|法国|FR|德国|DE|丹麦|DK|挪威|NO|瑞典|SE|芬兰|FI|冰岛|IS|瑞士|CH|捷克|CZ|希腊|GR|荷兰|NL|波兰|PL|乌克兰|UA|匈牙利|HU|卢森堡|LU|奥地利|AT|意大利|IT|比利时|BE|爱尔兰|IE|立陶宛|LT|西班牙|ES|葡萄牙|PT|安道尔|AD|保加利亚|BG|克罗地亚|HR|北马其顿|MK|塞尔维亚|RS|塞浦路斯|CY|拉脱维亚|LV|摩尔多瓦|MD|斯洛伐克|SK|爱沙尼亚|EE|白俄罗斯|BY|罗马尼亚|RO|斯洛文尼亚|SI|阿尔巴尼亚|AL|波黑共和国|BA|法属留尼汪|RE|埃及|EG|南非|ZA|摩洛哥|MA|突尼斯|TN|肯尼亚|KE|尼日利亚|NG))^((?!(越南|泰国)).)*$)
 
-美洲`select`((?=.*(Brazil|Chile|墨西哥|MX|巴拿马|PA|波多黎各|PR|哥斯达黎加|CR|巴西|BR|智利|CL|秘鲁|PE|阿根廷|AR|乌拉圭|UY|巴拉圭|PY|哥伦比亚|CO|厄瓜多尔|EC|委内瑞拉|VE))^((?!(GBR)).)*$)
+美洲`select`((?=.*(Brazil|Chile|墨西哥|MX|巴拿马|PA|波多黎各|PR|哥斯达黎加|CR|巴西|BR|智利|CL|秘鲁|PE|阿根廷|AR|乌拉圭|UY|巴拉圭|PY|库拉索|CW|哥伦比亚|CO|厄瓜多尔|EC|委内瑞拉|VE))^((?!(GBR)).)*$)
 
 YouTube`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]日本`[]美国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧非`[]美洲
 Netflix`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]日本`[]美国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧非`[]美洲

@@ -25,7 +25,7 @@ Disney`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]日本`[]美国
 Disney+`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]日本`[]美国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧非`[]美洲
 ESPN+`select`((?=.*(US|USA|States|美国))^((?!(AUS|RUS)).)*$)
 Star`select`[]美国`[]美洲
-DAZN`select`((?=.*(Japan|JPN|日本|JP|Germany|DEU|德国|DE|Switzerland|瑞士|CH|Austria|奧地利|AT|Italy|意大利|IT|ESP|西班牙|ES|Canada|CAN|加拿大|CA|Brazil|巴西|BR))^((?!(GBR)).)*$)
+DAZN`select`((?=.*(Japan|JPN|日本|JP|Germany|DEU|德国|DE|Switzerland|瑞士|CH|Austria|奧地利|AT|Italy|意大利|IT|ESP|西班牙|ES|Canada|CAN|加拿大|CA|Brazil|巴西|BR))^((?!(GBR|泰国)).)*$)
 S Sport Plus`select`(Turkey|TUR|土耳其|TR)
 Setanta Sports`select`((?=.*(亚美尼亚|AM|阿塞拜疆|AZ|哈萨克斯坦|KZ|吉尔吉斯坦|KG|乌兹别克斯坦|UZ|土库曼斯坦|TM|塔吉克斯坦|TJ|立陶宛|LT|拉脱维亚|LV|爱沙尼亚|EE|白俄罗斯|BY|摩尔多瓦|MD|格鲁吉亚|GE|乌克兰|UA))^((?!(HKG|法国)).)*$)
 NBA`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]印度`[]亚太`[]美洲

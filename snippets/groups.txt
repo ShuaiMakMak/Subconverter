@@ -41,7 +41,7 @@ MUBI`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]日本`[]美国`[]菲律宾`
 Vimeo`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]日本`[]美国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧非`[]美洲
 HBO Max`select`((?=.*(US|USA|States|美国|阿根廷))^((?!(AUS|RUS)).)*$)
 HBO Go Asia`select`[]香港`[]台湾`[]菲律宾
-BritBox US`select`[]美国`[]加拿大`[]澳洲`(南非)
+BritBox`select`[]美国`[]英国`[]加拿大`[]澳洲`(南非)
 哔哩哔哩`select`[]DIRECT`[]PROXY`[]香港`[]台湾
 爱奇艺国际`select`[]台湾`(马来西亚|MY)
 TVB`select`[]香港`[]台湾`[]新加坡`[]美国`[]英国`[]加拿大`[]澳洲`[]亚太

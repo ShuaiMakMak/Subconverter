@@ -34,6 +34,8 @@ Paramount`select`((?=.*(US|USA|States|美国))^((?!(AUS|RUS)).)*$)
 Paramount+`select`[]Paramount`[]英国`[]加拿大`[]澳洲`[]欧非`[]美洲
 EUROSPORT`select`[]欧非`[]英国`[]印度`[]亚太
 Discovery+`select`[]美国`[]菲律宾`[]印度`[]英国`[]欧非
+Canal+`select`(France|FRA|法国|FR|法属|RE|Poland|POL|波兰|PL)
+Sky Switzerland`select`(Switzerland|SUI|瑞士|CH)
 STARZ`select`[]美国`[]英国`[]欧非`[]美洲
 Crunchyroll`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]日本`[]韩国`[]美国`[]美洲
 TikTok`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧非`[]美洲
@@ -42,6 +44,7 @@ MUBI`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]�
 Vimeo`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧非`[]美洲
 HBO Max`select`[]美国`[]欧非`[]美洲
 HBO Go Asia`select`[]香港`[]台湾`[]菲律宾
+Sooka`select`(Malaysia|MAS|马来西亚|MY)
 BritBox`select`[]美国`[]英国`[]加拿大`[]澳洲`(南非)
 哔哩哔哩`select`[]DIRECT`[]PROXY`[]香港`[]台湾
 爱奇艺国际`select`[]台湾`(马来西亚|MY)

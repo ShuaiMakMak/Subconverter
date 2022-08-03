@@ -37,7 +37,7 @@ Discovery+`select`[]美国`[]菲律宾`[]印度`[]英国`[]欧非
 Canal+`select`(France|FRA|法国|FR|法属|RE|Poland|POL|波兰|PL)
 Sky Switzerland`select`(Switzerland|SUI|瑞士|CH)
 STARZ`select`[]美国`[]英国`[]欧非`[]美洲
-Crunchyroll`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]日本`[]韩国`[]美国`[]美洲
+Crunchyroll`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国
 TikTok`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧非`[]美洲
 Pornhub`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国
 MUBI`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧非`[]美洲

@@ -14,16 +14,18 @@ PROXY`select`.*
 
 亚太`select`((?=.*(Israel|Turkey|Indonesia|THA|TUR|IDN|VNM|马来西亚|MY|斯里兰卡|LK|泰国|TH|越南|VN|印尼|ID|柬埔寨|KH|蒙古|MN|约旦|JO|伊朗|IR|巴林|BH|以色列|IL|土耳其|TR|尼泊尔|NP|孟加拉|BD|阿联酋|AE|阿塞拜疆|AZ|亚美尼亚|AM|格鲁吉亚|GE|巴基斯坦|PK|沙特阿拉伯|SA|哈萨克斯坦|KZ|吉尔吉斯斯坦|KG|新西兰|NZ))^((?!(USA|HKG)).)*$)
 
-欧非`select`((?=.*(Netherlands|Germany|France|Switzerland|Sweden|Bulgaria|Austria|Ireland|Italy|Hungary|DEU|FRA|POL|NLD|ESP|ISL|DNK|法国|FR|德国|DE|丹麦|DK|挪威|NO|瑞典|SE|芬兰|FI|冰岛|IS|瑞士|CH|捷克|CZ|希腊|GR|荷兰|NL|波兰|PL|乌克兰|UA|匈牙利|HU|卢森堡|LU|奥地利|AT|意大利|IT|比利时|BE|爱尔兰|IE|立陶宛|LT|西班牙|ES|葡萄牙|PT|安道尔|AD|保加利亚|BG|克罗地亚|HR|北马其顿|MK|塞尔维亚|RS|塞浦路斯|CY|拉脱维亚|LV|摩尔多瓦|MD|斯洛伐克|SK|爱沙尼亚|EE|白俄罗斯|BY|罗马尼亚|RO|斯洛文尼亚|SI|阿尔巴尼亚|AL|波黑共和国|BA|法属留尼汪|RE|埃及|EG|南非|ZA|摩洛哥|MA|突尼斯|TN|肯尼亚|KE|尼日利亚|NG))^((?!(越南|泰国)).)*$)
+欧州`select`((?=.*(Netherlands|Germany|France|Switzerland|Sweden|Bulgaria|Austria|Ireland|Italy|Hungary|DEU|FRA|POL|NLD|ESP|ISL|DNK|法国|FR|德国|DE|丹麦|DK|挪威|NO|瑞典|SE|芬兰|FI|冰岛|IS|瑞士|CH|捷克|CZ|希腊|GR|荷兰|NL|波兰|PL|乌克兰|UA|匈牙利|HU|卢森堡|LU|奥地利|AT|意大利|IT|比利时|BE|爱尔兰|IE|立陶宛|LT|西班牙|ES|葡萄牙|PT|安道尔|AD|保加利亚|BG|克罗地亚|HR|北马其顿|MK|塞尔维亚|RS|塞浦路斯|CY|拉脱维亚|LV|摩尔多瓦|MD|斯洛伐克|SK|爱沙尼亚|EE|白俄罗斯|BY|罗马尼亚|RO|斯洛文尼亚|SI|阿尔巴尼亚|AL|波黑共和国|BA|法属留尼汪|RE))^((?!(越南|泰国)).)*$)
+
+非洲`select`(埃及|EG|南非|ZA|摩洛哥|MA|突尼斯|TN|肯尼亚|KE|尼日利亚|NG)
 
 美洲`select`((?=.*(Brazil|Chile|墨西哥|MX|巴拿马|PA|波多黎各|PR|哥斯达黎加|CR|巴西|BR|智利|CL|秘鲁|PE|阿根廷|AR|乌拉圭|UY|巴拉圭|PY|库拉索|CW|哥伦比亚|CO|厄瓜多尔|EC|委内瑞拉|VE))^((?!(GBR)).)*$)
 
-YouTube`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧非`[]美洲
-Netflix`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧非`[]美洲
-Amazon Prime Video`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧非`[]美洲
+YouTube`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲
+Netflix`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲
+Amazon Prime Video`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲
 Apple TV+`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国
 Disney`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国
-Disney+`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧非`[]美洲
+Disney+`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲
 ESPN+`select`((?=.*(US|USA|States|美国))^((?!(AUS|RUS)).)*$)
 Star`select`[]美国`[]美洲
 DAZN`select`((?=.*(Japan|JPN|日本|JP|Germany|DEU|德国|DE|Switzerland|瑞士|CH|Austria|奧地利|AT|Italy|意大利|IT|ESP|西班牙|ES|Canada|CAN|加拿大|CA|Brazil|巴西|BR))^((?!(GBR|泰国)).)*$)
@@ -31,46 +33,46 @@ S Sport Plus`select`(Turkey|TUR|土耳其|TR)
 Setanta Sports`select`((?=.*(亚美尼亚|AM|阿塞拜疆|AZ|哈萨克斯坦|KZ|吉尔吉斯坦|KG|乌兹别克斯坦|UZ|土库曼斯坦|TM|塔吉克斯坦|TJ|立陶宛|LT|拉脱维亚|LV|爱沙尼亚|EE|白俄罗斯|BY|摩尔多瓦|MD|格鲁吉亚|GE|乌克兰|UA))^((?!(HKG|法国)).)*$)
 NBA`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]印度`[]亚太`[]美洲
 Paramount`select`((?=.*(US|USA|States|美国))^((?!(AUS|RUS)).)*$)
-Paramount+`select`[]Paramount`[]英国`[]加拿大`[]澳洲`[]欧非`[]美洲
-EUROSPORT`select`[]欧非`[]英国`[]印度`[]亚太
-Discovery+`select`[]美国`[]菲律宾`[]印度`[]英国`[]欧非
+Paramount+`select`[]Paramount`[]英国`[]加拿大`[]澳洲`[]欧洲`[]美洲
+EUROSPORT`select`[]欧洲`[]英国`[]印度`[]亚太
+Discovery+`select`[]美国`[]菲律宾`[]印度`[]英国`[]欧洲
 Canal+`select`(France|FRA|法国|FR|法属|RE|Poland|POL|波兰|PL)
-Sky Switzerland`select`(Switzerland|SUI|瑞士|CH)
-STARZ`select`[]美国`[]英国`[]欧非`[]美洲
+Sky Switzerland`select`((?=.*(Netherlands|Germany|France|Switzerland|Sweden|Bulgaria|Austria|Ireland|Italy|Hungary|DEU|FRA|POL|NLD|ESP|ISL|DNK|法国|FR|德国|DE|丹麦|DK|挪威|NO|瑞典|SE|芬兰|FI|冰岛|IS|瑞士|CH|捷克|CZ|希腊|GR|荷兰|NL|波兰|PL|乌克兰|UA|匈牙利|HU|卢森堡|LU|奥地利|AT|意大利|IT|比利时|BE|爱尔兰|IE|立陶宛|LT|西班牙|ES|葡萄牙|PT|安道尔|AD|保加利亚|BG|克罗地亚|HR|北马其顿|MK|塞尔维亚|RS|塞浦路斯|CY|拉脱维亚|LV|摩尔多瓦|MD|斯洛伐克|SK|爱沙尼亚|EE|白俄罗斯|BY|罗马尼亚|RO|斯洛文尼亚|SI|阿尔巴尼亚|AL|波黑共和国|BA|法属留尼汪|RE))^((?!(越南|泰国)).)*$)
+STARZ`select`[]美国`[]英国`[]欧洲`[]美洲
 Crunchyroll`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国
-TikTok`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧非`[]美洲
+TikTok`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲
 Pornhub`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国
-MUBI`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧非`[]美洲
-Vimeo`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧非`[]美洲
-HBO Max`select`[]美国`[]欧非`[]美洲
+MUBI`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲
+Vimeo`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲
+HBO Max`select`[]美国`[]欧洲`[]美洲
 HBO Go Asia`select`[]香港`[]台湾`[]菲律宾
 Sooka`select`(Malaysia|MAS|马来西亚|MY)
 BritBox`select`[]美国`[]英国`[]加拿大`[]澳洲`(南非)
 哔哩哔哩`select`[]DIRECT`[]PROXY`[]香港`[]台湾
-爱奇艺国际`select`[]台湾`(马来西亚|MY)
+爱奇艺国际`select`[]台湾`(Malaysia|MAS|马来西亚|MY)
 TVB`select`[]香港`[]台湾`[]新加坡`[]美国`[]英国`[]加拿大`[]澳洲`[]亚太
 Viu`select`[]香港`[]新加坡`[]菲律宾
 
 PikPak`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国
-Emby`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧非`[]美洲
-IPTV`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧非`[]美洲
+Emby`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲
+IPTV`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲
 
 
 Apple Music`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国
 Spotify`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾
-TIDAL`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]亚太`[]美洲
-Deezer`select`[]PROXY`[]新加坡`[]美国`[]日本`[]菲律宾`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧非`[]美洲
+TIDAL`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国
+Deezer`select`[]PROXY`[]新加坡`[]美国`[]日本`[]菲律宾`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲
 Qobuz`select`[]PROXY`[]美国`[]英国`[]美洲`(France|FRA|法国|FR|法属|RE)
-SoundCloud`select`[]美国`[]英国`[]加拿大`[]澳洲`[]欧非
+SoundCloud`select`[]美国`[]英国`[]加拿大`[]澳洲`[]欧洲
 
 Apple`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国
 Speedtest`select`[]DIRECT`[]PROXY
 Line`select`[]香港`[]台湾`[]日本`[]韩国
-PayPal`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧非`[]美洲
-Steam`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧非`[]美洲
+PayPal`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲
+Steam`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲
 Nintendo`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国
-Microsoft`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧非`[]美洲
+Microsoft`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲
 Clubhouse`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国
-LG`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧非`[]美洲
+LG`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲
 AdGuard`select`[]REJECT`[]DIRECT
-Final`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧非`[]美洲
+Final`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲

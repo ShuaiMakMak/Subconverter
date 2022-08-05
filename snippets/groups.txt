@@ -29,16 +29,14 @@ Disney+`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`
 ESPN+`select`((?=.*(US|USA|States|美国))^((?!(AUS|RUS)).)*$)
 Star`select`[]美国`[]美洲
 DAZN`select`((?=.*(Japan|JPN|日本|JP|Germany|DEU|德国|DE|Switzerland|瑞士|CH|Austria|奧地利|AT|Italy|意大利|IT|ESP|西班牙|ES|Canada|CAN|加拿大|CA|Brazil|巴西|BR))^((?!(GBR|泰国)).)*$)
+Canal+`select`(Poland|POL|波兰|PL)
 S Sport Plus`select`(Turkey|TUR|土耳其|TR)
-Setanta Sports`select`((?=.*(亚美尼亚|AM|阿塞拜疆|AZ|哈萨克斯坦|KZ|吉尔吉斯坦|KG|乌兹别克斯坦|UZ|土库曼斯坦|TM|塔吉克斯坦|TJ|立陶宛|LT|拉脱维亚|LV|爱沙尼亚|EE|白俄罗斯|BY|摩尔多瓦|MD|格鲁吉亚|GE|乌克兰|UA))^((?!(HKG|法国)).)*$)
+Setanta Sports`select`((?=.*(亚美尼亚|AM|阿塞拜疆|AZ|哈萨克斯坦|KZ|吉尔吉斯坦|KG|乌兹别克斯坦|UZ|土库曼斯坦|TM|塔吉克斯坦|TJ|立陶宛|LT|拉脱维亚|LV|爱沙尼亚|EE|白俄罗斯|BY|摩尔多瓦|MD|格鲁吉亚|GE|乌克兰|UA|葡萄牙|PT))^((?!(HKG|法国)).)*$)
 NBA`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]印度`[]亚太`[]美洲
 Paramount`select`((?=.*(US|USA|States|美国))^((?!(AUS|RUS)).)*$)
 Paramount+`select`[]Paramount`[]英国`[]加拿大`[]澳洲`[]欧洲`[]美洲
 EUROSPORT`select`[]欧洲`[]英国`[]印度`[]亚太
 Discovery+`select`[]美国`[]菲律宾`[]印度`[]英国`[]欧洲
-Canal+`select`(Poland|POL|波兰|PL)
-Sky Switzerland`select`((?=.*(Netherlands|Germany|France|Switzerland|Sweden|Bulgaria|Austria|Ireland|Italy|Hungary|DEU|FRA|POL|NLD|ESP|ISL|DNK|法国|FR|德国|DE|丹麦|DK|挪威|NO|瑞典|SE|芬兰|FI|冰岛|IS|瑞士|CH|捷克|CZ|希腊|GR|荷兰|NL|波兰|PL|乌克兰|UA|匈牙利|HU|卢森堡|LU|奥地利|AT|意大利|IT|比利时|BE|爱尔兰|IE|立陶宛|LT|西班牙|ES|葡萄牙|PT|安道尔|AD|保加利亚|BG|克罗地亚|HR|北马其顿|MK|塞尔维亚|RS|塞浦路斯|CY|拉脱维亚|LV|摩尔多瓦|MD|斯洛伐克|SK|爱沙尼亚|EE|白俄罗斯|BY|罗马尼亚|RO|斯洛文尼亚|SI|阿尔巴尼亚|AL|波黑共和国|BA|法属留尼汪|RE))^((?!(越南|泰国)).)*$)
-STARZ`select`[]美国`[]英国`[]欧洲`[]美洲
 Crunchyroll`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国
 TikTok`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲
 Pornhub`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国
@@ -56,7 +54,6 @@ Viu`select`[]香港`[]新加坡`[]菲律宾
 PikPak`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国
 Emby`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲
 IPTV`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲
-
 
 Apple Music`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国
 Spotify`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾

@@ -1,4 +1,5 @@
 PROXY`select`.*
+Final`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲
 香港`select`(Hong|Hong Kong|HKG|香港|HK|澳门|MO)
 台湾`select`(Taiwan|TWN|台湾|TW)
 新加坡`select`(Singapore|SGP|新加坡|SG|狮城)
@@ -38,7 +39,7 @@ Paramount`select`((?=.*(US|USA|States|美国))^((?!(AUS|RUS)).)*$)
 Paramount+`select`[]Paramount`[]英国`[]加拿大`[]澳洲`[]欧洲`[]美洲
 EUROSPORT`select`[]欧洲`[]英国`[]印度`[]亚太
 Discovery+`select`[]美国`[]菲律宾`[]印度`[]英国`[]欧洲
-STARZ`select[]美国`[]英国`[]欧洲`[]美洲
+STARZ`select`[]美国`[]英国`[]欧洲`[]美洲
 Crunchyroll`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国
 TikTok`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲
 Pornhub`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国
@@ -74,4 +75,3 @@ Microsoft`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日�
 Clubhouse`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国
 LG`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲
 AdGuard`select`[]REJECT`[]DIRECT
-Final`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲

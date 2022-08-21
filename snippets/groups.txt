@@ -75,6 +75,6 @@ LG`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩
 PikPak`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国
 Emby`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲
 IPTV`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲
-PrivateTracker`[]DIRECT
+PrivateTracker`select`[]DIRECT`[]PROXY
 
 AdGuard`select`[]REJECT`[]DIRECT

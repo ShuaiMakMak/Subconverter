@@ -70,7 +70,7 @@ Microsoft`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日�
 Clubhouse`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国
 LG`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲
 
-Dropbox`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`(美国实验性)
+Dropbox`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`(美国实验性)
 PikPak`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`(卢森堡01-无视版权)`(美国实验性)
 PrivateTracker`select`[]DIRECT`[]PROXY`(卢森堡01-无视版权)`(美国实验性)
 

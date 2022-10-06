@@ -60,7 +60,7 @@ Deezer`select`[]PROXY`[]新加坡`[]美国`[]日本`[]菲律宾`[]英国`[]加�
 Qobuz`select`[]PROXY`[]美国`[]英国`[]美洲`(France|FRA|法国|法属)
 SoundCloud`select`[]美国`[]英国`[]加拿大`[]澳洲`[]欧洲
 
-Apple`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]Final
+Apple`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国
 Speedtest`select`[]DIRECT`[]PROXY
 Line`select`[]香港`[]台湾`[]日本`[]韩国
 PayPal`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲

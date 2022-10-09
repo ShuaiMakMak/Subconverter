@@ -57,7 +57,7 @@ Apple Music`select`[]DIRECT`[]PROXY`[]香港HK`[]台湾TW`[]新加坡SG`[]美国
 Spotify`select`[]PROXY`[]香港HK`[]台湾TW`[]新加坡SG`[]美国US`[]日本JP`[]韩国KR`[]菲律宾PH
 TIDAL`select`[]PROXY`[]香港HK`[]台湾TW`[]新加坡SG`[]美国US`[]日本JP`[]韩国KR
 Deezer`select`[]PROXY`[]新加坡SG`[]美国US`[]日本JP`[]菲律宾PH`[]英国UK`[]加拿大CA`[]澳洲AU`[]亚太`[]欧洲`[]非洲`[]美洲
-Qobuz`select`[]PROXY`[]美国US`[]英国UK`[]美洲`(France|FRA|法国|法属)
+Qobuz`select`[]PROXY`[]美国US`[]英国UK`[]欧洲`[]美洲
 SoundCloud`select`[]美国US`[]英国UK`[]加拿大CA`[]澳洲`[]欧洲
 
 Apple`select`[]DIRECT`[]PROXY`[]香港HK`[]台湾TW`[]新加坡SG`[]美国US`[]日本JP`[]韩国KR

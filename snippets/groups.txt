@@ -14,7 +14,7 @@ Final`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]
 加拿大`select`(Canada|CAN|加拿大)
 澳洲`select`(Australia|AUS|AU|澳洲|澳大利亚)
 
-亚太`select`(Israel|Turkey|Indonesia|Uzbekistan|THA|TUR|IDN|VNM|马来西亚|斯里兰卡|泰国|老挝|越南|印尼|柬埔寨|蒙古|约旦|伊朗|巴林|以色列|土耳其|尼泊尔|孟加拉|阿联酋|阿塞拜疆|亚美尼亚|格鲁吉亚|巴基斯坦|沙特阿拉伯|哈萨克斯坦|吉尔吉斯斯坦|乌兹别克斯坦|新西兰)
+亚太`select`(Israel|Turkey|Indonesia|Uzbekistan|THA|TUR|IDN|VNM|马来西亚|斯里兰卡|泰国|老挝|越南|印尼|柬埔寨|蒙古|约旦|伊朗|巴林|阿曼|以色列|土耳其|尼泊尔|孟加拉|阿联酋|阿塞拜疆|亚美尼亚|格鲁吉亚|巴基斯坦|沙特阿拉伯|哈萨克斯坦|吉尔吉斯斯坦|乌兹别克斯坦|新西兰)
 
 欧洲`select`(Netherlands|Germany|France|Switzerland|Sweden|Bulgaria|Austria|Ireland|Italy|Hungary|Poland|Moldova|DEU|FRA|POL|NLD|ESP|ISL|DNK|法国|德国|丹麦|挪威|瑞典|芬兰|冰岛|瑞士|捷克|希腊|荷兰|波兰|乌克兰|匈牙利|卢森堡|奥地利|意大利|比利时|爱尔兰|立陶宛|西班牙|葡萄牙|安道尔|马耳他|保加利亚|克罗地亚|北马其顿|塞尔维亚|塞浦路斯|拉脱维亚|摩尔多瓦|斯洛伐克|爱沙尼亚|白俄罗斯|罗马尼亚|斯洛文尼亚|阿尔巴尼亚|波黑共和国|法属留尼汪)
 

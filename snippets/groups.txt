@@ -28,14 +28,14 @@ Amazon Prime Video`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日�
 Apple TV+`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国
 Disney`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国
 Disney+`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲
-ESPN+`select`(USA|States|美国)
+ESPN+`select`(US|USA|States|美国)
 DAZN`select`(Japan|JPN|日本|Germany|DEU|德国|Switzerland|瑞士|Austria|奧地利|Italy|意大利|ESP|西班牙|Canada|CAN|加拿大|Brazil|巴西)
-fuboTV`select`[]美国`[]加拿大`(美国实验性)`(US02)
+fuboTV`select`(USA|States|美国|Canada|CAN|加拿大)
 Canal+`select`(Poland|POL|波兰)
 S Sport Plus`select`(Turkey|TUR|土耳其)
 Setanta Sports`select`(亚美尼亚|阿塞拜疆|哈萨克斯坦|吉尔吉斯坦|Uzbekistan|乌兹别克斯坦|土库曼斯坦|塔吉克斯坦|立陶宛|拉脱维亚|爱沙尼亚|白俄罗斯|Moldova|摩尔多瓦|格鲁吉亚|乌克兰|Philippines|PHL|菲律宾|葡萄牙)
 NBA`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]印度`[]亚太`[]美洲
-Paramount`select`(USA|States|美国)
+Paramount`select`(US|USA|States|美国)
 Paramount+`select`[]Paramount`[]英国`[]加拿大`[]澳洲`[]欧洲`[]美洲
 EUROSPORT`select`[]英国`[]印度`[]亚太`[]欧洲
 Discovery+`select`[]美国`[]菲律宾`[]印度`[]英国`[]欧洲

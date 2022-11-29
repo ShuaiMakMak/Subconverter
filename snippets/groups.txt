@@ -37,6 +37,7 @@ Setanta Sports`select`(亚美尼亚|阿塞拜疆|哈萨克斯坦|吉尔吉斯坦
 NBA`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]印度`[]亚太`[]美洲
 Paramount`select`(US|USA|States|美国)
 Paramount+`select`[]Paramount`[]英国`[]加拿大`[]澳洲`[]欧洲`[]美洲
+SkyShowtime`select`(阿尔巴尼亚|安道尔|波黑共和国|Bulgaria|保加利亚|克罗地亚|捷克|DNK|丹麦|芬兰|Hungary|匈牙利|科索沃|黑山|Netherlands|NLD|荷兰|北马其顿|挪威|Poland|POL|波兰|葡萄牙|罗马尼亚|塞尔维亚|斯洛伐克|斯洛文尼亚|ESP|西班牙|Sweden|瑞典)
 EUROSPORT`select`[]英国`[]印度`[]亚太`[]欧洲
 Discovery+`select`[]美国`[]菲律宾`[]印度`[]英国`[]欧洲
 STARZ`select`[]美国`[]英国`[]欧洲`[]美洲

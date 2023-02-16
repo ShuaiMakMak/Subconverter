@@ -4,7 +4,7 @@ Final`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]
 香港`select`(Hong|Hong Kong|HKG|HK|香港|澳门)
 台湾`select`(Taiwan|TWN|TW|台湾|台灣)
 新加坡`select`(Singapore|SGP|SG|新加坡|狮城)
-美国`select`((?=.*(US|USA|States|美国|美國))^((?!(AUS|RUS)).)*$)
+美国`select`((?=.*(US|USA|States|美国|美國|关岛))^((?!(AUS|RUS)).)*$)
 日本`select`(Japan|JPN|JP|日本)
 韩国`select`(Korea|KOR|韩国)
 菲律宾`select`(Philippines|PHL|菲律宾)
@@ -22,7 +22,7 @@ Final`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]
 
 美洲`select`(Brazil|Chile|Argentina|Mexico|墨西哥|巴拿马|波多黎各|哥斯达黎加|巴西|智利|秘鲁|阿根廷|乌拉圭|巴拉圭|库拉索|哥伦比亚|厄瓜多尔|委内瑞拉|危地马拉)
 
-美国代理链`relay`[]PROXY`(美国甲骨文凤凰城)
+美国代理链`Clash-Relay`relay`[]PROXY`(美国甲骨文凤凰城)
 
 YouTube`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲
 Netflix`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲
@@ -31,15 +31,14 @@ Apple TV+`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日�
 Star`select`[]美洲`[]美国
 Disney`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国
 Disney+`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲
-ESPN+`select`((?=.*(US|USA|States|美国|美國))^((?!(AUS|RUS)).)*$)
-DAZN`select`(Japan|JPN|日本|Germany|DEU|德国|Switzerland|瑞士|Austria|奧地利|Italy|意大利|ESP|西班牙|Canada|CAN|加拿大|Brazil|巴西)
+ESPN+`select`((?=.*(US|USA|States|美国|美國|关岛))^((?!(AUS|RUS)).)*$)
 fuboTV`select`[]美国代理链`[]加拿大
 Canal+`select`[]PROXY`(Poland|POL|波兰)
 S Sport Plus`select`(Turkey|TUR|土耳其)
 Setanta Sports`select`(亚美尼亚|阿塞拜疆|哈萨克斯坦|吉尔吉斯坦|Uzbekistan|乌兹别克斯坦|土库曼斯坦|塔吉克斯坦|立陶宛|拉脱维亚|爱沙尼亚|白俄罗斯|Moldova|摩尔多瓦|格鲁吉亚|乌克兰|Philippines|PHL|菲律宾)
 Setanta`select`[]DIRECT`[]PROXY`[]Setanta Sports`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲
 NBA`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]印度`[]亚太`[]美洲
-Paramount`select`((?=.*(US|USA|States|美国|美國))^((?!(AUS|RUS)).)*$)
+Paramount`select`((?=.*(US|USA|States|美国|美國|关岛))^((?!(AUS|RUS)).)*$)
 Paramount+`select`[]Paramount`[]英国`[]加拿大`[]澳洲`[]欧洲`[]美洲
 SkyShowtime`select`(阿尔巴尼亚|安道尔|波黑共和国|Bulgaria|保加利亚|克罗地亚|捷克|DNK|丹麦|芬兰|Hungary|匈牙利|科索沃|黑山|Netherlands|NLD|荷兰|北马其顿|挪威|Poland|POL|波兰|葡萄牙|罗马尼亚|塞尔维亚|斯洛伐克|斯洛文尼亚|ESP|西班牙|Sweden|瑞典)
 Discovery+`select`[]美国`[]菲律宾`[]印度`[]英国`[]亚太`[]欧洲

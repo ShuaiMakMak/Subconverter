@@ -32,7 +32,7 @@ Star`select`[]美洲`[]美国
 Disney`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国
 Disney+`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲
 ESPN+`select`((?=.*(US|USA|States|美国|美國|关岛))^((?!(AUS|RUS)).)*$)
-fuboTV`select`[]美国代理链`[]加拿大
+fuboTV`select`[]美国代理链`[]美国`[]加拿大
 Canal+`select`[]PROXY`(FRA|France|法国|Poland|POL|波兰)
 S Sport Plus`select`(Turkey|TUR|土耳其)
 Setanta Sports`select`(亚美尼亚|阿塞拜疆|哈萨克斯坦|吉尔吉斯坦|Uzbekistan|乌兹别克斯坦|土库曼斯坦|塔吉克斯坦|立陶宛|拉脱维亚|爱沙尼亚|白俄罗斯|Moldova|摩尔多瓦|格鲁吉亚|乌克兰|Philippines|PHL|菲律宾)

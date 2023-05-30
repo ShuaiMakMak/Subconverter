@@ -53,7 +53,6 @@ HBO Go Asia`select`[]香港`[]台湾`[]菲律宾
 Sooka`select`(Malaysia|MAS|马来西亚)
 BritBox`select`[]美国`[]英国`[]加拿大`[]澳洲`(南非)
 哔哩哔哩`select`[]DIRECT`[]PROXY`[]香港`[]台湾
-TVB`select`[]香港`[]台湾`[]新加坡`[]美国`[]英国`[]加拿大`[]澳洲`[]亚太
 Viu`select`[]香港`[]新加坡`[]菲律宾
 
 Apple Music`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国

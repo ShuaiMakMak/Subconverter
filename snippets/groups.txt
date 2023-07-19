@@ -20,7 +20,6 @@ Final`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]
 
 非洲`select`(埃及|南非|摩洛哥|突尼斯|利比亚|肯尼亚|卢旺达|塞舌尔|尼日利亚|毛里求斯|阿尔及利亚|南极)
 
-美洲`select`(Brazil|Chile|Argentina|Mexico|墨西哥|巴拿马|波多黎各|哥斯达黎加|巴西|智利|秘鲁|古巴|阿根廷|乌拉圭|巴拉圭|库拉索|哥伦比亚|厄瓜多尔|委内瑞拉|危地马拉|AR|BR)^((?!(GBR)).)*$)
 美洲`select`((?=.*(Brazil|Chile|Argentina|Mexico|墨西哥|巴拿马|波多黎各|哥斯达黎加|巴西|智利|秘鲁|阿根廷|乌拉圭|巴拉圭|库拉索|哥伦比亚|厄瓜多尔|委内瑞拉|危地马拉|开曼群岛|AR|BR))^((?!(GBR)).)*$)
 
 美国代理链`relay`[]PROXY`(Fubo)
@@ -33,7 +32,8 @@ Star`select`[]美洲`[]美国
 Disney`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国
 Disney+`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲
 ESPN+`select`((?=.*(US|USA|States|美国|美國|关岛))^((?!(AUS|RUS)).)*$)
-fuboTV`select`[]美国代理链`[]美国`[]加拿大
+DAZN`select`[]日本`[]加拿大
+fuboTV`select`[]美国代理链`[]美国
 Canal+`select`[]PROXY`(FR|FRA|France|法国|Poland|POL|波兰)
 S Sport Plus`select`(TR|Turkey|TUR|土耳其)
 Setanta Sports`select`(亚美尼亚|阿塞拜疆|哈萨克斯坦|吉尔吉斯坦|UZ|Uzbekistan|乌兹别克斯坦|土库曼斯坦|塔吉克斯坦|立陶宛|拉脱维亚|爱沙尼亚|白俄罗斯|MD|Moldova|摩尔多瓦|格鲁吉亚|UA|乌克兰|PH|Philippines|PHL|菲律宾)
@@ -51,7 +51,7 @@ MUBI`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]�
 Vimeo`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲
 HBO Max`select`[]美国`[]欧洲`[]美洲
 HBO Go Asia`select`[]香港`[]台湾`[]菲律宾
-Sooka`select`(Malaysia|MAS|马来西亚|MY)
+Sooka`select`(Malaysia|MAS|马来西亚|MY|MYS)
 BritBox`select`[]美国`[]英国`[]加拿大`[]澳洲`(南非)
 哔哩哔哩`select`[]DIRECT`[]PROXY`[]香港`[]台湾
 Viu`select`[]香港`[]新加坡`[]菲律宾

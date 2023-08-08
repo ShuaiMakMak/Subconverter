@@ -1,26 +1,26 @@
 PROXY`select`.*
 Final`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲
 
-香港`select`(Hong|Hong Kong|HKG|HK|香港|港|澳门)
+香港`select`(Hong|Hong Kong|HKG|HK|香港|港|澳门|Macao)
 台湾`select`(Taiwan|TWN|TW|台湾|台灣)
 新加坡`select`(Singapore|SGP|SG|新加坡|狮城)
-美国`select`((?=.*(US|USA|States|美国|美國|关岛))^((?!(AUS|RUS)).)*$)
+美国`select`((?=.*(US|USA|States|美国|美國))^((?!(AUS|RUS)).)*$)
 日本`select`(Japan|JPN|JP|日本|日)
 韩国`select`(Korea|KOR|韩国|KR)
 菲律宾`select`(Philippines|PHL|菲律宾)
-印度`select`(India|IND|印度)
+印度`select`((?=.*(IND|IN Sales|India|印度))^((?!(印度尼西亚)).)*$)
 俄罗斯`select`((?=.*(Russia|RUS|俄罗斯))^((?!(白俄罗斯)).)*$)
-英国`select`(UK|Kingdom|GBR|英国|马恩岛)
+英国`select`(UK|Kingdom|GBR|英国|伦敦|马恩岛)
 加拿大`select`(Canada|CAN|加拿大)
-澳洲`select`(Australia|AUS|AU|澳洲|澳大利亚)
+澳洲`select`(Australia|AUS|AU|澳洲|澳大利亚|悉尼)
 
-亚太`select`(Israel|Turkey|Indonesia|Uzbekistan|THA|TUR|IDN|VNM|马来西亚|斯里兰卡|泰国|缅甸|老挝|越南|印尼|柬埔寨|蒙古|约旦|伊朗|巴林|阿曼|以色列|土耳其|尼泊尔|孟加拉|黎巴嫩|伊拉克|叙利亚|阿联酋|阿塞拜疆|亚美尼亚|格鲁吉亚|巴基斯坦|沙特阿拉伯|哈萨克斯坦|吉尔吉斯斯坦|乌兹别克斯坦|新西兰|MY|TH|TR|UZ)
+亚太`select`(MY|TH|TR|UZ|THA|MYS|TUR|IDN|VNM|NZL|Israel|Turkey|Indonesia|Uzbekistan|Malaysia|Pakistan|Tailand|New Zealand|North Korea|North Korea|Vietnam|马来西亚|斯里兰卡|泰国|缅甸|老挝|越南|不丹|文莱|朝鲜|关岛|斐济|印尼|印度尼西亚|柬埔寨|蒙古|约旦|伊朗|巴林|阿曼|以色列|土耳其|尼泊尔|孟加拉|黎巴嫩|伊拉克|叙利亚|阿联酋|迪拜|阿塞拜疆|亚美尼亚|格鲁吉亚|巴基斯坦|斯里兰卡|马尔代夫|沙特阿拉伯|哈萨克斯坦|吉尔吉斯斯坦|乌兹别克斯坦|新西兰)
 
-欧洲`select`(Netherlands|Germany|France|Switzerland|Sweden|Bulgaria|Austria|Ireland|Italy|Hungary|Poland|Moldova|DEU|FRA|POL|NLD|ESP|ISL|DNK|法国|德国|丹麦|挪威|瑞典|芬兰|冰岛|格陵兰岛|瑞士|捷克|希腊|荷兰|波兰|黑山|乌克兰|匈牙利|卢森堡|奥地利|意大利|梵蒂冈|比利时|爱尔兰|立陶宛|西班牙|葡萄牙|安道尔|马耳他|保加利亚|克罗地亚|北马其顿|塞尔维亚|塞浦路斯|拉脱维亚|摩尔多瓦|斯洛伐克|爱沙尼亚|白俄罗斯|罗马尼亚|直布罗陀|圣马力诺|斯洛文尼亚|阿尔巴尼亚|波黑共和国|列支敦士登|法属留尼汪|DE|FR|LU|UA|MD)
+欧洲`select`(DE|FR|LU|UA|MD|DEU|FRA|POL|NLD|ESP|ISL|DNK|LUX|CHE|Netherlands|Germany|France|Switzerland|Sweden|Bulgaria|Austria|Ireland|Italy|Hungary|Poland|Moldova|法国|德国|丹麦|挪威|瑞典|芬兰|冰岛|格陵兰岛|瑞士|捷克|希腊|荷兰|波兰|黑山|乌克兰|匈牙利|卢森堡|奥地利|意大利|梵蒂冈|比利时|爱尔兰|立陶宛|西班牙|葡萄牙|安道尔|马耳他|保加利亚|克罗地亚|北马其顿|塞尔维亚|塞浦路斯|拉脱维亚|摩尔多瓦|斯洛伐克|爱沙尼亚|白俄罗斯|罗马尼亚|直布罗陀|圣马力诺|斯洛文尼亚|阿尔巴尼亚|波黑共和国|列支敦士登|法属留尼汪)
 
-非洲`select`(埃及|南非|摩洛哥|突尼斯|利比亚|肯尼亚|卢旺达|塞舌尔|尼日利亚|毛里求斯|阿尔及利亚|南极)
+非洲`select`(埃及|加纳|南非|摩洛哥|突尼斯|利比亚|肯尼亚|卢旺达|佛得角|塞舌尔|尼日利亚|毛里求斯|阿尔及利亚|南极)
 
-美洲`select`((?=.*(Brazil|Chile|Argentina|Mexico|墨西哥|巴拿马|波多黎各|哥斯达黎加|巴西|智利|秘鲁|阿根廷|乌拉圭|巴拉圭|库拉索|哥伦比亚|厄瓜多尔|委内瑞拉|危地马拉|开曼群岛|AR|BR))^((?!(GBR)).)*$)
+美洲`select`((?=.*(AR|BR|ARG|Brazil|Chile|Argentina|Mexico|墨西哥|巴拿马|波多黎各|哥斯达黎加|巴西|智利|秘鲁|阿根廷|乌拉圭|巴拉圭|牙买加|苏里南|库拉索|哥伦比亚|厄瓜多尔|委内瑞拉|危地马拉|开曼群岛))^((?!(GBR)).)*$)
 
 美国代理链`relay`[]PROXY`(Fubo)
 
@@ -31,15 +31,15 @@ Apple TV+`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日�
 Star`select`[]美洲`[]美国
 Disney`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国
 Disney+`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲
-ESPN+`select`((?=.*(US|USA|States|美国|美國|关岛))^((?!(AUS|RUS)).)*$)
+ESPN+`select`((?=.*(US|USA|States|美国|美國))^((?!(AUS|RUS)).)*$)
 DAZN`select`[]日本`[]加拿大
-fuboTV`select`[]美国代理链`[]美国
+fuboTV`select`[]美国代理链`[]美国`[]加拿大
 Canal+`select`[]PROXY`(FR|FRA|France|法国|Poland|POL|波兰)
 S Sport Plus`select`(TR|Turkey|TUR|土耳其)
 Setanta Sports`select`(亚美尼亚|阿塞拜疆|哈萨克斯坦|吉尔吉斯坦|UZ|Uzbekistan|乌兹别克斯坦|土库曼斯坦|塔吉克斯坦|立陶宛|拉脱维亚|爱沙尼亚|白俄罗斯|MD|Moldova|摩尔多瓦|格鲁吉亚|UA|乌克兰|PH|Philippines|PHL|菲律宾)
 Setanta/Eleven/EuroLeague/VBTV`select`[]DIRECT`[]PROXY`[]Setanta Sports`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲
 NBA`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]印度`[]亚太`[]美洲
-Paramount`select`((?=.*(US|USA|States|美国|美國|关岛))^((?!(AUS|RUS)).)*$)
+Paramount`select`((?=.*(US|USA|States|美国|美國))^((?!(AUS|RUS)).)*$)
 Paramount+`select`[]Paramount`[]英国`[]加拿大`[]澳洲`[]欧洲`[]美洲
 SkyShowtime`select`(阿尔巴尼亚|安道尔|波黑共和国|Bulgaria|保加利亚|克罗地亚|捷克|DNK|丹麦|芬兰|Hungary|匈牙利|科索沃|黑山|Netherlands|NLD|荷兰|北马其顿|挪威|Poland|POL|波兰|葡萄牙|罗马尼亚|塞尔维亚|斯洛伐克|斯洛文尼亚|ESP|西班牙|Sweden|瑞典)
 Discovery+`select`[]美国`[]印度`[]英国`[]亚太`[]欧洲
@@ -51,7 +51,7 @@ MUBI`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]�
 Vimeo`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲
 HBO Max`select`[]美国`[]欧洲`[]美洲
 HBO Go Asia`select`[]香港`[]台湾`[]菲律宾
-Sooka`select`(Malaysia|MAS|马来西亚|MY|MYS)
+Sooka`select`(MY|MAS|MYS|Malaysia|马来西亚)
 BritBox`select`[]美国`[]英国`[]加拿大`[]澳洲`(南非)
 哔哩哔哩`select`[]DIRECT`[]PROXY`[]香港`[]台湾
 Viu`select`[]香港`[]新加坡`[]菲律宾

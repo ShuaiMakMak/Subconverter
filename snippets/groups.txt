@@ -60,8 +60,8 @@ Deezer`select`[]PROXY`[]新加坡`[]美国`[]日本`[]菲律宾`[]英国`[]加�
 Qobuz`select`[]PROXY`[]美国`[]英国`[]欧洲`[]美洲
 SoundCloud`select`[]美国`[]英国`[]加拿大`[]澳洲`[]欧洲
 
-Apple TV+`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国
 Apple Music`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国
+Apple TV+`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国
 Apple`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国
 
 Speedtest`select`[]DIRECT`[]PROXY

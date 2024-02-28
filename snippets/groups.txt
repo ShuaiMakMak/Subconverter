@@ -46,7 +46,7 @@ TikTok`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[
 Pornhub`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国
 MUBI`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲
 Vimeo`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲
-HBO Max`select`[]美国`[]欧洲`[]美洲
+Max`select`[]美国`[]欧洲`[]美洲
 HBO Go Asia`select`[]香港`[]台湾`[]菲律宾
 Sooka`select`(MY|MAS|MYS|Malaysia|马来西亚)
 BritBox`select`[]美国`[]英国`[]加拿大`[]澳洲`(南非)
@@ -82,3 +82,11 @@ TAGEmby`select`(日本 01|日本 02|日本 03|日本 04|日本 05|日本 06|日�
 IPTV`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲
 
 AdGuard`select`[]REJECT`[]DIRECT
+
+
+
+
+
+
+Setanta Sports`select`(亚美尼亚|阿塞拜疆|哈萨克斯坦|吉尔吉斯坦|UZ|Uzbekistan|乌兹别克斯坦|土库曼斯坦|塔吉克斯坦|立陶宛|拉脱维亚|爱沙尼亚|白俄罗斯|MD|Moldova|摩尔多瓦|格鲁吉亚|UA|乌克兰|PH|Philippines|PHL|菲律宾)
+Setanta Series`select`[]DIRECT`[]PROXY`[]Setanta Sports`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲

@@ -1,7 +1,7 @@
 PROXY`select`.*
 Final`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾`[]印度`[]俄罗斯`[]英国`[]加拿大`[]澳洲`[]亚太`[]欧洲`[]非洲`[]美洲
 
-香港`select`(Hong|Hong Kong|HKG|HK|香港|港|澳门|Macao)
+香港`select`((?=.*(Hong|Hong Kong|HKG|HK|香港|港|澳门|Macao|MO))^((?!(Mongolia|Moldova)).)*$)
 台湾`select`(Taiwan|TWN|TW|台湾|台灣)
 新加坡`select`(Singapore|SGP|SG|新加坡|狮城)
 美国`select`((?=.*(US|USA|States|美国|美國))^((?!(AUS|RUS)).)*$)

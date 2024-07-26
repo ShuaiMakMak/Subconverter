@@ -48,7 +48,7 @@ Max`select`[]美国`[]欧洲`[]美洲
 HBO Go Asia`select`[]香港`[]台湾`[]菲律宾
 Sooka`select`(MY|MAS|MYS|Malaysia|马来西亚)
 BritBox`select`[]美国`[]英国`[]加拿大`[]澳洲`(南非)
-哔哩哔哩`select`[]DIRECT`[]PROXY`[]香港`[]台湾
+哔哩哔哩`select`[]DIRECT`[]PROXY`[]香港`[]台湾`[]亚太
 Viu`select`[]香港`[]新加坡`[]菲律宾
 
 Spotify`select`[]PROXY`[]香港`[]台湾`[]新加坡`[]美国`[]日本`[]韩国`[]菲律宾
